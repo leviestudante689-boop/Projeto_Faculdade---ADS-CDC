@@ -1,7 +1,6 @@
 #Criando lista global de tarefas 
-
-tarefas = ["felipe", "levi", "gustavo"]   # lista global — começa vazia
-
+import dados
+tarefas = dados.lista_principal   # lista global — começa vazia
 #Função de cadastro de aluno na academia
 
 def cadastrar_aluno(nome, idade, dias_da_semana, objetivo, modalidade):
